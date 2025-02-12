@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    height: full;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+
+}
+
