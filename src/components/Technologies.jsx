@@ -6,6 +6,7 @@ const techCategories = {
         { name: 'HTML5', category: 'Frontend' },
         { name: 'CSS3', category: 'Frontend' },
         { name: 'JavaScript', category: 'Frontend' },
+        { name: 'Typescript', category: 'Frontend' },
         { name: 'React', category: 'Frontend' },
         { name: 'Node.js', category: 'Backend' },
         { name: 'Express.js', category: 'Backend' },
@@ -15,11 +16,17 @@ const techCategories = {
         { name: 'HTML5' },
         { name: 'CSS3' },
         { name: 'JavaScript' },
+        { name: 'Typescript' },
         { name: 'React' },
         { name: 'Next.js' },
     ],
     Backend: [{ name: 'Node.js' }, { name: 'Express.js' }],
-    Tools: [{ name: 'Git' }, { name: 'GitHub' }],
+    Tools: [
+        { name: 'Git' },
+        { name: 'GitHub' },
+        { name: 'Redux/Toolkit' },
+        { name: 'Tailwind CSS' },
+    ],
 };
 
 const Technologies = () => {
@@ -30,7 +37,7 @@ const Technologies = () => {
     };
 
     return (
-        <section className="py-16 px-6 text-white">
+        <section id="technologies" className="py-16 px-6 text-white">
             {/* Заголовок */}
             <motion.div
                 initial={{ opacity: 0, y: -20 }}

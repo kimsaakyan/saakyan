@@ -41,7 +41,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
-                            href="#services"
+                            href="#projects"
                             className="block py-2 sm:py-0 sm:hover:text-blue-400"
                             onClick={() => setIsMenuOpen(false)}
                         >
@@ -59,7 +59,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
-                            href="#contact"
+                            href="#contact-me"
                             className="block py-2 sm:py-0 sm:hover:text-blue-400"
                             onClick={() => setIsMenuOpen(false)}
                         >

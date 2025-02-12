@@ -1,5 +1,6 @@
 {
     "name": "my-website",
+    "homepage": "https://kimsaakyan.github.io/saakyan.github.io/",
     "private": true,
     "version": "0.0.0",
     "type": "module",

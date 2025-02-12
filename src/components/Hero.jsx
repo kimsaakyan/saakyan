@@ -22,7 +22,7 @@ const Hero = () => {
                     className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-gray-700 overflow-hidden shadow-lg"
                 >
                     <img
-                        src="https://via.placeholder.com/400"
+                        src="/kim2.JPG"
                         alt="Hero"
                         className="w-full h-full object-cover"
                     />

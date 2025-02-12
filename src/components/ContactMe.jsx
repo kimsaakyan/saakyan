@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const ContactMe = () => {
     return (
-        <section className="py-16 px-6 text-white">
+        <section id="contact-me" className="py-16 px-6 text-white">
             <div className="container mx-auto max-w-5xl">
                 {/* Заголовок */}
                 <motion.div

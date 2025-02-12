@@ -14,9 +14,9 @@ const AboutMe = () => {
                     className="flex justify-center flex-none w-[250px]"
                 >
                     <img
-                        src="https://via.placeholder.com/200"
+                        src="/kim.jpg"
                         alt="My Personal Photo"
-                        className="rounded-lg shadow-lg w-64 h-64"
+                        className="rounded-lg shadow-lg"
                     />
                 </motion.div>
 
